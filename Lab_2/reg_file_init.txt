@@ -1,0 +1,2 @@
+00      // reg_file[0]
+64      // reg_file[1]

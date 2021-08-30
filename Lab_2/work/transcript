@@ -1,0 +1,207 @@
+# Errors: 0, Warnings: 1
+# Compile of ALU.sv was successful.
+# Errors: 1, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of CRL_def.sv was successful.
+# Errors: 0, Warnings: 1
+# Compile of CTRL.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of data_mem.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of DataMem.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of Definitions.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of InstFetch.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of InstROM.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of LUT.def.sv was successful.
+# Errors: 0, Warnings: 1
+# Compile of LUT.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of RegFile.sv was successful.
+# Errors: 0, Warnings: 1
+# Compile of TopLevel.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of TopLevel_tb.sv was successful.
+# Errors: 1, Warnings: 0
+# Errors: 1, Warnings: 0
+# Compile of ALU_def.sv failed.
+# Compile of ALU.sv was successful.
+# Compile of ALU_def.sv failed with 1 errors.
+# Compile of CRL_def.sv was successful.
+# Compile of CTRL.sv was successful.
+# Compile of data_mem.sv was successful.
+# Compile of DataMem.sv was successful.
+# Compile of Definitions.sv was successful.
+# Compile of InstFetch.sv was successful.
+# Compile of InstROM.sv was successful.
+# Compile of LUT.def.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of RegFile.sv was successful.
+# Compile of TopLevel.sv was successful.
+# Compile of TopLevel_tb.sv was successful.
+# 14 compiles, 1 failed with 1 error.
+# Compile of ALU_def.sv failed with 1 errors.
+# Compile of ALU_def.sv was successful.
+vsim -gui work.TopLevel_tb
+# vsim -gui work.TopLevel_tb 
+# Start time: 11:48:03 on Aug 27,2021
+# Loading sv_std.std
+# Loading work.TopLevel_tb
+# Loading work.Definitions
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstFetch
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+add wave -position insertpoint sim:/TopLevel_tb/DUT/*
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Compile of InstROM.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InstROM
+run
+# 0000_0000
+# ** Note: $stop    : C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel_tb.sv(54)
+#    Time: 95 ns  Iteration: 0  Instance: /TopLevel_tb
+# Break in Module TopLevel_tb at C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel_tb.sv line 54
+# Compile of InstROM.sv was successful.
+
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.InstROM
+run
+# Compile of TopLevel.sv failed with 1 errors.
+# Compile of TopLevel.sv was successful.
+# Load canceled
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+add wave -position insertpoint  \
+sim:/TopLevel_tb/DUT/DM1/DataAddress \
+sim:/TopLevel_tb/DUT/DM1/DataIn \
+sim:/TopLevel_tb/DUT/DM1/DataOut \
+sim:/TopLevel_tb/DUT/DM1/Core
+restart
+run
+# Compile of DataMem.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.DataMem
+run
+# Compile of DataMem.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+# Loading work.DataMem
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+restart
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+# Compile of TopLevel.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TopLevel_sv_unit
+# Loading work.TopLevel
+run
+run
+restart
+run
+# End time: 14:11:30 on Aug 27,2021, Elapsed time: 2:23:27
+# Errors: 0, Warnings: 1

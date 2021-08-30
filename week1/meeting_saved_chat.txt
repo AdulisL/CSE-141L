@@ -1,0 +1,200 @@
+07:56:19 From  Ziyu(Amy) Lin  to  John Eldon(Direct Message):
+	Hi Professor, I’m ready.
+07:58:26 From  Aaron Wu  to  Everyone:
+	What needs to be done for lab 1? Is it just ISA design, or should we be making something in Verilog?
+08:01:41 From  FREDERICK ZIEBER  to  John Eldon(Direct Message):
+	I may suddenly cut out. I am using my phone as the power is out here. I know attendance isn't necessary, just thought I should inform you.
+08:02:51 From  John Eldon  to  FREDERICK ZIEBER(Direct Message):
+	Thanks for the heads-up. We are recording. Are you in northern California?
+08:05:16 From  John Eldon  to  Everyone:
+	You need not use all 6 of the microcode fields used in MIPS. Most students use only two or three.
+08:09:00 From  David Suzuki  to  Everyone:
+	what does tos mean?
+08:09:16 From  Kevin (Kaiwen) He  to  Everyone:
+	top of stack
+08:09:21 From  David Suzuki  to  Everyone:
+	ah ok thank you
+08:09:34 From  John Eldon  to  Everyone:
+	Kevin beat me to it (again) :)
+08:09:36 From  Jinhao Zhou  to  Everyone:
+	could we use multiple of them?
+08:10:45 From  Meron Asfaw  to  Everyone:
+	are you going to post this slide?
+08:10:48 From  Jinhao Zhou  to  Everyone:
+	ty
+08:13:00 From  John Eldon  to  Everyone:
+	You guys get only 9 bits of machine code. :(
+08:13:36 From  David Suzuki  to  Everyone:
+	just to clarify, does that mean our instruction is only going to be 9 bits?
+08:14:29 From  Jinhao Zhou  to  Everyone:
+	does pc,lr count as one of the register?
+08:15:19 From  Jinhao Zhou  to  Everyone:
+	ty
+08:15:53 From  John Eldon  to  Everyone:
+	Most 141L students keep ProgCounter separate from RegFile, unlike ARMsim.
+08:16:15 From  John Eldon  to  Everyone:
+	You may have a separate LR register to facilitate return to main from subroutine calls.
+08:16:49 From  John Eldon  to  Everyone:
+	I'll be going through the starter code in gory detail today and Tuesday.
+08:16:58 From  Edmund Leibert  to  Everyone:
+	perfect
+08:17:16 From  John Eldon  to  Everyone:
+	Lookup tables are your new Best Friend Forever.
+08:17:35 From  Edmund Leibert  to  Everyone:
+	If you could, do you mind expanding on one ALU limit expectation?
+08:18:01 From  Alexis Chen  to  Everyone:
+	Do we have starter code for lab1?
+08:18:04 From  Edmund Leibert  to  Everyone:
+	oh wait nvm
+08:18:26 From  Edmund Leibert  to  Everyone:
+	@Alexis yeah we do]
+08:18:38 From  Jinhao Zhou  to  Everyone:
+	lab2, are we draw something similar to this picture?
+08:22:19 From  Meron Asfaw  to  Everyone:
+	Is there a major difference between MIPs and ARMv8 for this lab?
+08:22:39 From  John Eldon  to  Everyone:
+	Not really, since you will be doing neither.
+08:23:06 From  Meron Asfaw  to  Everyone:
+	ok thanks
+08:23:59 From  John Eldon  to  Everyone:
+	Good point -- one needs to address only the bottom 128 bytes/words of memory, so you could make the top address pointer bit always 0. This may be useful for indirect addressing or stack management.
+08:25:06 From  John Eldon  to  Everyone:
+	There is also a Piazza discussion on how LFSR runs.
+08:25:10 From  Meron Asfaw  to  Everyone:
+	What is N for again?
+08:25:28 From  John Eldon  to  Everyone:
+	Number of space characters you need to put in front of the message itself.
+08:25:40 From  John Eldon  to  Everyone:
+	ASCII space characters    0x20
+08:26:18 From  Meron Asfaw  to  Everyone:
+	NICE! thank you
+08:26:37 From  John Eldon  to  Everyone:
+	We need at least 10 space characters to enable decryption in Program 2 and 3.
+08:27:56 From  John Eldon  to  Everyone:
+	Reason for the -0x20 is to avoid nonprinting characters.
+08:28:31 From  Meron Asfaw  to  Everyone:
+	0-127
+08:28:43 From  Jinhao Zhou  to  Everyone:
+	do we need to design the instructions to calculate the LFSR?
+08:28:58 From  John Eldon  to  Everyone:
+	yes -- that is part of the assignment
+08:29:28 From  John Eldon  to  Everyone:
+	Your ALU needs to be able to do right shifts, bitwise ANDs, bitwise XORs, and reduction XORs.
+08:30:01 From  Jinhao Zhou  to  Everyone:
+	thank you
+08:30:04 From  Edmund Leibert  to  Everyone:
+	is the ALU not provided?
+08:30:19 From  Edmund Leibert  to  Everyone:
+	ahhhh ok
+08:30:27 From  Edmund Leibert  to  Everyone:
+	so we can change and optimize the provided parts
+08:31:34 From  John Eldon  to  Everyone:
+	Your ALU may have a parity flag. (Recommended)
+08:34:16 From  David Suzuki  to  Everyone:
+	just to clarify, where it says " ^ curr_lfsr" that means xor all the bits of the LFSR?
+08:34:29 From  Aaron Wu  to  Everyone:
+	so do we write these programs ourselves? how do we load this in instruction memory?
+08:34:32 From  John Eldon  to  Everyone:
+	Yes
+08:34:58 From  Alexis Chen  to  Everyone:
+	Is the reason why we add x20 because we just use it to identity which tap pattern wer using? Or are there other reasons
+08:35:24 From  David Suzuki  to  Everyone:
+	could you explain the difference between the xors?
+08:36:39 From  Kevin (Kaiwen) He  to  Everyone:
+	@David: reduction xor, xor of all bits of ONE byte	bitwise xor: bit by bit xor BETWEEN TWO bytes
+08:37:40 From  Kevin (Kaiwen) He  to  Everyone:
+	bitwise xor:	abcd ^ efgh = (a^e)(b^f)(c^g)(c^h)	reduction xor:	^abcdef = a^b^c^d^e^f
+08:37:56 From  David Suzuki  to  Everyone:
+	ah I see thank you
+08:38:13 From  Aaron Wu  to  Everyone:
+	I'm gonna repost this question: so do we write these programs ourselves? how do we load this in instruction memory?
+08:39:44 From  Aaron Wu  to  Everyone:
+	ty
+08:39:59 From  David Suzuki  to  Everyone:
+	we write the code in quartus?
+08:40:56 From  John Eldon  to  Everyone:
+	We have sample Python and sample SystemVerilog assembly to machine code compilers students can adapt as desired.
+08:43:24 From  Kevin (Kaiwen) He  to  Everyone:
+	What files do we have to submit for lab 1?
+08:45:22 From  Kevin (Kaiwen) He  to  Everyone:
+	Is it just a single lab report (PDF)? Components of Lab 1 report section in Lab 1 writeup?
+08:45:37 From  Kanlin Wang  to  Everyone:
+	just a pdf about your design and answer the questions in lab1writeup
+08:46:23 From  David Suzuki  to  Everyone:
+	lab 1 is due 7/16/21?
+08:46:51 From  David Suzuki  to  Everyone:
+	oh my bad, a month off
+08:47:03 From  Alexis Chen  to  Everyone:
+	So should write high-level code to solve the 7-bit LFSR encryption problem using restricted instructions first? then we can move on to verilog?
+08:47:40 From  Edmund Leibert  to  Everyone:
+	^super helpful in C++
+08:48:04 From  Edmund Leibert  to  Everyone:
+	oh and highly recommend using the CLion IDE if your going that route
+08:48:34 From  Alexis Chen  to  Everyone:
+	Quick question is armsim on cloud lab?
+08:48:42 From  John Eldon  to  Everyone:
+	I requested it.
+08:48:58 From  John Eldon  to  Everyone:
+	Maybe a TA can verify whether IT uploaded it yet.
+08:49:15 From  Kevin (Kaiwen) He  to  Everyone:
+	You can make an emulator
+08:50:02 From  John Eldon  to  Everyone:
+	Emulator is highly recommended.
+08:50:02 From  Kevin (Kaiwen) He  to  Everyone:
+	for your ISA
+08:52:10 From  Kanlin Wang  to  Everyone:
+	I checked on cloudlab, I didn't find the armsim
+08:52:26 From  John Eldon  to  Everyone:
+	I'll ping IT again right after class.
+08:53:34 From  Kevin (Kaiwen) He  to  Everyone:
+	If I find a processor bug after the deadline for lab 2 (while testing my program), can I resubmit the SystemVerilog files with no penalty?
+08:53:40 From  Egor  to  Everyone:
+	So we are encrypting without the spaces? What is our crib then?
+08:54:18 From  John Eldon  to  Everyone:
+	You are always encrypting w/ at least 10 spaces
+08:56:17 From  Kevin (Kaiwen) He  to  Everyone:
+	great, thank you!
+08:57:02 From  Alexis Chen  to  Everyone:
+	Are there any rubrics for lab1-3?
+08:57:03 From  Kevin (Kaiwen) He  to  Everyone:
+	he means whether there is an autograder
+08:57:11 From  Edmund Leibert  to  Everyone:
+	yeah we don't have one
+08:58:11 From  David Suzuki  to  Everyone:
+	by emulator, is that the same as armsim?
+08:58:30 From  John Eldon  to  Everyone:
+	it need not be as fancy as armsim
+08:58:38 From  Kanlin Wang  to  Everyone:
+	for the lab 1 you want to try your best to do best, but you can fix it if you find any problem latter
+09:00:40 From  Dadian Zhu  to  Everyone:
+	Is lab4 putting everything together and debugging?
+09:02:09 From  Aaron Wu  to  Everyone:
+	Correct me if I'm wrong. Lab 1 = design doc for ISA, Lab 2 = coding processor in Verilog + programs in machine code, Lab 3 = assembler in some language?
+09:02:36 From  Aaron Wu  to  Everyone:
+	gotcha
+09:04:51 From  Aaron Wu  to  Everyone:
+	thanks amy!
+09:07:27 From  Fengdi Liu  to  Everyone:
+	somebody need to mute himself
+09:10:55 From  Kevin (Kaiwen) He  to  Everyone:
+	InstROM
+09:16:45 From  Aaron Wu  to  Everyone:
+	does that mean we need a return instruction?
+09:29:21 From  Aaron Wu  to  Everyone:
+	does all 1's mean terminate program? how does that work
+09:33:01 From  Kanlin Wang  to  Everyone:
+	you can have a halt instruction, and use it at the end of the program
+09:41:51 From  Meron Asfaw  to  Everyone:
+	We can operate directly from data memory before loading them to registers?
+09:51:31 From  Marco Kuan  to  Everyone:
+	thanks prof.
+09:51:42 From  Edmund Leibert  to  Everyone:
+	thanks
+09:52:01 From  Annie Nguyen  to  John Eldon(Direct Message):
+	Thank you Professor! Hope you have a great weekend!!
+09:52:14 From  Meron Asfaw  to  Everyone:
+	Is there a piazza link?
+09:53:26 From  John Eldon  to  Everyone:
+	piazza.com/ucsd/summer2021/cse141lsectionsa_b
+09:53:38 From  Meron Asfaw  to  Everyone:
+	Perfect. Thank you professor.

@@ -1,0 +1,97 @@
+111000010
+111001000
+000010001
+000010001
+110001001
+111111111
+
+010101011
+001111100
+100000011
+111000000
+000001101
+001111100
+010101110
+001111100
+100000011
+111000000
+000001101
+001111100
+010101110
+001111100
+100000011
+111000000
+000001101
+001111100
+111111011
+100010001
+100010001
+100010001
+100010001
+111111111
+
+
+
+/*
+000     ldr
+001     -0x20
+010     xor     encryption
+011     +0x20
+100     str
+
+
+000     -1      keep track of loop #
+001		bez      done
+010     and      LFSR
+011		lsl
+
+
+
+reg file
+
+loop_count     ==> memory addresses
+data(i)
+pad_count    mem[61]
+taps         mem[62]    
+lfsr0        mem[63]  lfsr_state
+
+
+
+*/
+
+
+
+
+
+
+
+/*
+32 - 159      
+-32
+0 - 127
+
+Program 1:
+
+Original message 8 bits wide   0x20 - 0x9f     <-- from test bench 
+Sub 0x20         7 bits        0x00 - 0x7f		offset space  [6:0]
+^LFSR7           7 bits
+insert parity    8 bits   --> to test bench
+
+          (test bench to add 0x20 back in for display purposes)
+
+
+
+Program 2:
+
+encrypted message w/ parity 8 bits wide   <-- from test bench
+^LFSR7   figure out which one  7 bits 
+^LFSR7   decrypt message	   7 bits		  offset space [6:0]
+add x20         8 bits --> to test bench
+
+
+Program 3: 
+
+remove leading spaces   0x00	 0x20
+flag 1-bit errors
+
+*/

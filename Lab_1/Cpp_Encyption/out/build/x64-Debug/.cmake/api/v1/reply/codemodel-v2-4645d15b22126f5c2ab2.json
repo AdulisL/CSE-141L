@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cpp_Encryption",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Cpp_Encryption::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cpp_Encryption-Debug-af8fdcc614dbdf085e79.json",
+					"name" : "Cpp_Encryption",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Lab_1/Cpp_Encyption/out/build/x64-Debug",
+		"source" : "C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Lab_1/Cpp_Encyption"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

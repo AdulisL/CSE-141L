@@ -1,0 +1,43 @@
+# Compile of ALU_def.sv was successful.
+# Compile of ControlUnit_def.sv was successful.
+# Compile of data_mem.sv was successful.
+# Compile of IF.sv was successful.
+# Compile of instr_ROM.sv was successful.
+# Compile of reg_file.sv was successful.
+# Compile of TopLevel_tb.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of LUT_def.sv was successful.
+# Compile of ControlUnit.sv was successful.
+# Compile of LUT.sv was successful.
+# Compile of TopLevel.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Load canceled
+cd {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/work}
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+project open {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/Processor}
+# Project file C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/Processor.mpf was not found.
+# Unable to open project.
+cd {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/work}
+cd {C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/work}
+vsim -gui work.TopLevel_tb
+# vsim -gui work.TopLevel_tb 
+# Start time: 10:14:19 on Aug 27,2021
+# Loading sv_std.std
+# Loading work.TopLevel_tb
+# Loading work.TopLevel
+# Loading work.Definitions
+# Loading work.CTRL_sv_unit
+# Loading work.Ctrl
+# Loading work.LUT_def
+# Loading work.LUT_sv_unit
+# Loading work.LUT
+# Loading work.InstFetch
+# Loading work.InstROM
+# Loading work.RegFile
+# Loading work.ALU_sv_unit
+# Loading work.ALU
+# Loading work.DataMem
+add wave -position insertpoint sim:/TopLevel_tb/DUT/DM1/*
+run
+# End time: 10:15:16 on Aug 27,2021, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 1

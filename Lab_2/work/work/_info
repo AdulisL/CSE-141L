@@ -1,0 +1,515 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 DXx4 work 11 Definitions 0 22 HfI3L^Z@z19UeD^5EJ^GC2
+DXx4 work 11 ALU_sv_unit 0 22 f^8jk68Sd2V<fVRJ_lJG42
+Z2 !s110 1630089819
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 IMCl8?C@DcRh:mHMaFRK`1
+I[P`^C@H^i:bk<EnOOYPJ_0
+!s105 ALU_sv_unit
+S1
+Z4 dC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/work
+Z5 w1629917356
+Z6 8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/ALU.sv
+Z7 FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/ALU.sv
+!i122 251
+L0 2 31
+Z8 OV;L;2020.1;71
+31
+Z9 !s108 1630089819.000000
+Z10 !s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/ALU.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/ALU.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@l@u
+XALU_def
+R0
+!s110 1630090070
+!i10b 1
+!s100 2Ri:cOEVWLB@GPfN4I4JW3
+Z14 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]706j<JMo_ciLUC4mNjRz1
+V]706j<JMo_ciLUC4mNjRz1
+S1
+R4
+w1630090039
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/ALU_def.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/ALU_def.sv
+!i122 264
+Z15 L0 2 0
+R8
+r1
+!s85 0
+31
+!s108 1630090070.000000
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/ALU_def.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/ALU_def.sv|
+!i113 1
+R12
+R13
+n@a@l@u_def
+XALU_sv_unit
+R0
+R1
+R2
+Vf^8jk68Sd2V<fVRJ_lJG42
+r1
+!s85 0
+!i10b 1
+!s100 :m^FF@67UGgM?d4OI_MnB2
+If^8jk68Sd2V<fVRJ_lJG42
+!i103 1
+S1
+R4
+R5
+R6
+R7
+!i122 251
+Z16 L0 1 0
+R8
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@a@l@u_sv_unit
+XControlUnit_def
+R0
+R2
+!i10b 1
+!s100 0cU`PU<UeaBIi;cb?Hc9T1
+R14
+IgkNSc<WW9YIY`ze^MDI@Z1
+VgkNSc<WW9YIY`ze^MDI@Z1
+S1
+R4
+w1629868256
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/CRL_def.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/CRL_def.sv
+!i122 252
+R15
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/CRL_def.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/CRL_def.sv|
+!i113 1
+R12
+R13
+n@control@unit_def
+vCtrl
+R0
+R1
+DXx4 work 12 CTRL_sv_unit 0 22 :?Khid]c9n53@G[6BbGFc0
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 0>HMo>2gm_lBE:HH6UD2b0
+I<TYX9D4gaaQFnnNKKCVil3
+!s105 CTRL_sv_unit
+S1
+R4
+Z17 w1630079810
+Z18 8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/CTRL.sv
+Z19 FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/CTRL.sv
+!i122 253
+L0 5 34
+R8
+31
+R9
+Z20 !s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/CTRL.sv|
+Z21 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/CTRL.sv|
+!i113 1
+R12
+R13
+n@ctrl
+XCTRL_sv_unit
+R0
+R1
+R2
+V:?Khid]c9n53@G[6BbGFc0
+r1
+!s85 0
+!i10b 1
+!s100 9Yi<3;KlM3:DDzN;6knOg2
+I:?Khid]c9n53@G[6BbGFc0
+!i103 1
+S1
+R4
+R17
+R18
+R19
+!i122 253
+R16
+R8
+31
+R9
+R20
+R21
+!i113 1
+R12
+R13
+n@c@t@r@l_sv_unit
+vdata_mem
+R0
+R2
+!i10b 1
+!s100 M`65Q<]]Fg6;mRR;KGU<21
+R14
+I>9PGJQDCAde7oa8A7TaEX2
+R3
+S1
+R4
+w1629869468
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/data_mem.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/data_mem.sv
+!i122 254
+L0 6 17
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/data_mem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/data_mem.sv|
+!i113 1
+R12
+R13
+vDataMem
+R0
+!s110 1630094575
+!i10b 1
+!s100 X7j;mj1bP@AUClWF<Q5zH0
+R14
+IBVPDA@oniB]jUJ:okVTn>3
+R3
+S1
+R4
+w1630093964
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/DataMem.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/DataMem.sv
+!i122 269
+L0 6 33
+R8
+r1
+!s85 0
+31
+!s108 1630094575.000000
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/DataMem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/DataMem.sv|
+!i113 1
+R12
+R13
+n@data@mem
+XDefinitions
+R0
+Z22 !s110 1630089820
+!i10b 1
+!s100 QJEX4ARC:Y9fh27_kBA7S0
+R14
+IHfI3L^Z@z19UeD^5EJ^GC2
+VHfI3L^Z@z19UeD^5EJ^GC2
+S1
+R4
+w1630046052
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/Definitions.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/Definitions.sv
+!i122 256
+Z23 L0 3 0
+R8
+r1
+!s85 0
+31
+Z24 !s108 1630089820.000000
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/Definitions.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/Definitions.sv|
+!i113 1
+R12
+R13
+n@definitions
+Xdefinitions
+R0
+!s110 1629862275
+!i10b 1
+!s100 >];mn_MQ[YzU07G8ESidC2
+R14
+Iz[UEn1Mo:<eEI]A`cfRYX0
+Vz[UEn1Mo:<eEI]A`cfRYX0
+S1
+dC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/work
+w1629861651
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/Definitions.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/Definitions.sv
+!i122 4
+R23
+R8
+r1
+!s85 0
+31
+!s108 1629862275.000000
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/Definitions.sv|
+!s90 -reportprogress|300|-work|work|-sv|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/Anron_CSE141L/Lab_2/Definitions.sv|
+!i113 1
+R12
+R13
+vInstFetch
+R0
+R22
+!i10b 1
+!s100 cd^ahzR`H1ALaWGKVClJh3
+R14
+I?fQo`_fa3;CoPBTYnk>K;0
+R3
+S1
+R4
+w1630052798
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/InstFetch.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/InstFetch.sv
+!i122 257
+L0 8 25
+R8
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/InstFetch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/InstFetch.sv|
+!i113 1
+R12
+R13
+n@inst@fetch
+vInstROM
+R0
+!s110 1630091020
+!i10b 1
+!s100 V`:AcO]GG<dc8zkJmcPzZ1
+R14
+I[akb3QiUGAE7Ad7O6n]D83
+R3
+S1
+R4
+w1630091014
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/InstROM.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/InstROM.sv
+!i122 266
+L0 11 35
+R8
+r1
+!s85 0
+31
+!s108 1630091020.000000
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/InstROM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/InstROM.sv|
+!i113 1
+R12
+R13
+n@inst@r@o@m
+vLUT
+R0
+Z25 DXx4 work 7 LUT_def 0 22 Rkh;Y6eil46V3mLlE;i^21
+DXx4 work 11 LUT_sv_unit 0 22 87<z40Q^QX9[E_gM7Dh`J2
+R22
+R3
+r1
+!s85 0
+!i10b 1
+!s100 HRl2XL3F:X`B1Dl81M6@[1
+Ieaaf31OI1OAW_Bfm]J>B13
+!s105 LUT_sv_unit
+S1
+R4
+Z26 w1630080176
+Z27 8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/LUT.sv
+Z28 FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/LUT.sv
+!i122 260
+L0 7 15
+R8
+31
+R24
+Z29 !s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/LUT.sv|
+Z30 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/LUT.sv|
+!i113 1
+R12
+R13
+n@l@u@t
+XLUT_def
+R0
+R22
+!i10b 1
+!s100 [Tn4CJ3NX[mBjEDiN:c`H0
+R14
+IRkh;Y6eil46V3mLlE;i^21
+VRkh;Y6eil46V3mLlE;i^21
+S1
+R4
+w1629690628
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/LUT.def.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/LUT.def.sv
+!i122 259
+R15
+R8
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/LUT.def.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/LUT.def.sv|
+!i113 1
+R12
+R13
+n@l@u@t_def
+XLUT_sv_unit
+R0
+R25
+R22
+V87<z40Q^QX9[E_gM7Dh`J2
+r1
+!s85 0
+!i10b 1
+!s100 KJgN>zP^NToD9Jekb>U[60
+I87<z40Q^QX9[E_gM7Dh`J2
+!i103 1
+S1
+R4
+R26
+R27
+R28
+!i122 260
+Z31 L0 6 0
+R8
+31
+R24
+R29
+R30
+!i113 1
+R12
+R13
+n@l@u@t_sv_unit
+vRegFile
+R0
+R22
+!i10b 1
+!s100 P<oghi]Qe9_PY331bhA0d1
+R14
+I<BeX`h@KaTo_kVP7Jd9ja0
+R3
+S1
+R4
+w1630039215
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/RegFile.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/RegFile.sv
+!i122 261
+L0 10 28
+R8
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/RegFile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/RegFile.sv|
+!i113 1
+R12
+R13
+n@reg@file
+vTopLevel
+R0
+R1
+DXx4 work 16 TopLevel_sv_unit 0 22 09:S;aTRCVX`oBE>=`zdQ0
+Z32 !s110 1630098248
+R3
+r1
+!s85 0
+!i10b 1
+!s100 5XUhYJ?_9h3E4b9<hRW4U0
+IF8lb@JKkDe?:9>hn@U7Z]0
+!s105 TopLevel_sv_unit
+S1
+R4
+Z33 w1630098240
+Z34 8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel.sv
+Z35 FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel.sv
+!i122 284
+L0 7 123
+R8
+31
+Z36 !s108 1630098248.000000
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel.sv|
+Z37 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel.sv|
+!i113 1
+R12
+R13
+n@top@level
+XTopLevel_sv_unit
+R0
+R1
+R32
+V09:S;aTRCVX`oBE>=`zdQ0
+r1
+!s85 0
+!i10b 1
+!s100 QLKVKk?RKhoP7a=hna`Mm1
+I09:S;aTRCVX`oBE>=`zdQ0
+!i103 1
+S1
+R4
+R33
+R34
+R35
+!i122 284
+R31
+R8
+31
+R36
+Z38 !s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel.sv|
+R37
+!i113 1
+R12
+R13
+n@top@level_sv_unit
+vTopLevel_tb
+R0
+!s110 1630089821
+!i10b 1
+!s100 GalA=LiiT0[J=Te6@XUB52
+R14
+IRZ6j]YJ0nW5PT7kgRJ9oe1
+R3
+S1
+R4
+w1630088988
+8C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel_tb.sv
+FC:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel_tb.sv
+!i122 263
+L0 8 55
+R8
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Anron_CSE141L/Lab_2/TopLevel_tb.sv|
+!i113 1
+R12
+R13
+n@top@level_tb

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Meron Er/Documents/C.E/2021/Summer 2 2021/CSE 141L/Lab_1/Cpp_Encyption/main.cpp
+stdio.h
+-
+iostream
+-
+string.h
+-
+fstream
+-
+
